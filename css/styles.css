@@ -1,18 +1,33 @@
-:root {
-    --navy:#08152f;
-    --navy-2:#102958;
-    --blue:#2374e1;
-    --blue-50:#edf5ff;
-    --ink:#172338;
-    --muted:#64748b;
-    --line:#e4eaf2;
-    --surface:#fff;
-    --bg:#f4f7fb;
-    --success:#14804a;
-    --warning:#a76706;
-    --danger:#cf3e3e;
+:root{
+    /* Client Brand Colors */
+    --color-primary:#ead87d;
+    --color-secondary:#202228;
+    --color-accent:#ffd700;
+    --color-surface:#121418;
+    --color-text:#ffffff;
+    --color-background:#000000;
+    --color-highlight:#fff1a8;
+    --color-on-primary:#111111;
+    --color-success:#43c07a;
+    --color-error:#ff5b5b;
+    --color-live:#2ee6c6;
+
+    /* Keep your existing variable names for compatibility */
+    --navy:#121418;
+    --navy-2:#202228;
+    --blue:#ead87d;
+    --blue-50:#fff1a8;
+    --ink:#ffffff;
+    --muted:#a8adb8;
+    --line:#353841;
+    --surface:#121418;
+    --bg:#000000;
+    --success:#43c07a;
+    --warning:#ffd700;
+    --danger:#ff5b5b;
+
     --radius:14px;
-    --shadow:0 10px 30px rgba(18,40,75,.08);
+    --shadow:0 10px 30px rgba(0,0,0,.35);
 }
 
 * {
